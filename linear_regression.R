@@ -9,6 +9,7 @@ if (!require('vcd')) {
 }
 library(caret)
 library(scales)
+library(forecast)
 
 ## Read in training data attributes from CSV file
 trainingDat <- read.csv(
